@@ -15,36 +15,99 @@
 <html>
 
 <head>
-     <title>Daftar Buku Yang Pernah Saya Baca</title>
-     <meta charset="...">
-     <meta name="viewport" content="...">
+     <html lang="id">
+
+     <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Buku yang Pernah Saya Baca</title>
+     </head>
+
+
 </head>
 
 <body>
      <header>
-          <h1>Daftar Buku Yang Pernah Saya Baca</h1>
+          <h1>Daftar Buku yang Pernah Saya Baca</h1>
           <nav aria-label="Navigasi utama">
                <ul>
-                    <li><a href="#bagian-1">Tautan 1</a></li>
-                    <li><a href="#bagian-2">Tautan 2</a></li>
-                    <li><a href="#bagian-3">Tautan 3</a></li>
+                    <th><a href="#bagian-1">Tautan 1</a></th>
+                    <th><a href="#bagian-2">Tautan 2</a></th>
+                    <th><a href="#bagian-3">Tautan 3</a></th>
                </ul>
           </nav>
      </header>
+     <figure>
+          <img src="C:\Users\LEGION\Documents\GitHub\TugasPABW_25523118\worksheet-p3\mie ayam.jpg"
+               alt="___jelaskan isi gambar dalam satu kalimat___" loading="lazy">
+          <figcaption>Terkadang, yang kita cari bukanlah hidup yang besar, melainkan alasan kecil untuk tetap bertahan,
+               seperti seporsi mie
+               ayam
+               Novel ini tidak menggurui tentang depresi, tetapi menemani pembaca untuk menerima rasa sakit dan belajar
+               berdamai dengan
+               keadaan Kisah Ale mengingatkan kita bahwa kebebasan kecil di titik terendah bisa dimulai dari memilih
+               makanan kesukaan
+               sebelum menyerah</figcaption>
+     </figure>
 
      <main>
           <section id="bagian-1">
-               <h2>Judul bagian pertama</h2>
-               <!-- tabel Anda nanti di sini (Lembar D) -->
+               <h2>Tabel Buku Yang Pernah Dibaca</h2>
+               <table>
+                    <caption scope="row">Daftar Buku</caption>
+                    <thead>
+                         <tr>
+                              <th scope="col">Judul Buku</th>
+                              <th scope="col">Penulis</th>
+                              <th scope="col">Tahun Terbit</th>
+                         </tr>
+                    </thead>
+                    <tbody>
+                         <tr>
+                              <th scope="row">Islam Ala Prabowo</th>
+                              <td>Abdur Rahim Hasan</td>
+                              <td>2025</td>
+                         </tr>
+                         <tr>
+                              <th scope="row">Laut Bercerita</th>
+                              <td>Leila S. Chudori</td>
+                              <td>2017</td>
+                         </tr>
+                         <tr>
+                              <th scope="row">Filosofi Teras</th>
+                              <td>Henry Manampiring</td>
+                              <td>2018</td>
+                         </tr>
+                         <!-- tambahkan minimal dua baris lagi -->
+                    </tbody>
+               </table>
+
           </section>
 
           <section id="bagian-2">
-               <h2>Judul bagian kedua</h2>
-               <!-- form Anda nanti di sini (Lembar E) -->
+               <h2>Tambahkan Buku Baru</h2>
+
+               <form action="/simpan" method="post">
+                    <p>
+                         <label for="nama-kolom">Judul Buku</label>
+                         <input type="text" id="nama-kolom" name="nama-kolom" required>
+                    </p>
+                    <p>
+                         <label for="penulis">Penulis</label>
+                         <input type="text" id="penulis" name="penulis" required>
+                    </p>
+                    <p>
+                         <label for="tahun-terbit">Tahun Terbit</label>
+                         <input type="number" id="tahun-terbit" name="tahun-terbit" required>
+                    </p>
+                    <button type="submit">Simpan</button>
+               </form>
+          </section>
+
           </section>
      </main>
 
      <footer>
-          <p>Nama Anda · NIM Anda · 2026</p>
+          <p>MUHAMMAD DZAKI HASAN · 25523118 · 2026</p>
      </footer>
 </body>
