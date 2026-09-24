@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+  KERANGKA AWAL — Halaman Profil Saya
+  PABW 2026/2027 · Pertemuan 3
+
+  Cara pakai:
+  1. Salin berkas ini, ganti nama menjadi profil.html
+  2. Ganti setiap tulisan TODO dengan isi milik Anda SENDIRI
+  3. Simpan, lalu buka di peramban (F5 untuk memuat ulang)
+  4. Kerjakan berurutan mengikuti Lembar B, C, D, dan E pada worksheet
+
+  Jangan menghapus komentar TODO sebelum bagian itu Anda kerjakan —
+  komentar itu adalah daftar periksa Anda sendiri.
+-->
+<html>
+
+<head>
+    <html lang="id">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buku yang Pernah Saya Baca</title>
+    </head>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Judul halaman Anda</title>
+
+        <!-- urutan ini yang benar: token -> dasar -> tata letak -> komponen -> tema -->
+        <link rel="stylesheet" href="tokens.css">
+        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="layout.css">
+        <link rel="stylesheet" href="komponen.css">
+        <link rel="stylesheet" href="tema.css">
+    </head>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Daftar Buku yang Pernah Saya Baca</h1>
+        <nav aria-label="Navigasi utama">
+            <ul>
+                <th><a
+                        href="https://www.google.com/search?sca_esv=cc12825c4d4cb41c&sxsrf=APpeQnvGvFRb11wUJ6MXFzOWXZnDSc-m6Q:1790221069358&udm=28&fbs=ABfTbFWmYwLIYNEMFfx8WgwsNlLaHC42JQxROx1t8GoIA3GgK3Ry0icWoR4Jq7psfsRHH-bt00Y61ZD2BIOtMBAagjrHJcLDiTVO0kw5DJhinHh7NtLs8_g37Jz7FsEAcFtjizN90ik9PGvWK1l7eBvGEkNZjZN7QFpVwMPj5sY9pTphAqYk1nsvaxPDTR3FI9C97X8_ktMBxgwqaDGEei9COKWQKBMDNw&q=buku+mie+ayam+sebelum+mati&ved=1t:220175&ictx=111&biw=1218&bih=665&dpr=2">Buku
+                        mie ayam, </a></th>
+                <th><a
+                        href="https://www.google.com/search?sca_esv=4ebf505db5655575&sxsrf=APpeQntDLvKlH7at4T3rN7dShFPdpc5D-Q:1790221219628&udm=28&fbs=ABfTbFWmYwLIYNEMFfx8WgwsNlLaHC42JQxROx1t8GoIA3GgK2lUWlz0xJkeVmB1u9UNkCa2g_lzFlapSi76hnO7jwjn1sx2_BU1zPmh26htc4X9IkHglhLlRkK8Ri945kIs-WytIgx36OwhOvAuTwkNQU3wbPFL3G_K_88mLKHfyjy3Q3ZRhKQo3SSKdnpN1prmSF3Bg5RZ4Q78GBbLcBfqgV4xalFOaA&q=buku+islam+ala+prabowo&ved=1t:220175&ictx=111&biw=1280&bih=665&dpr=2">Buku
+                        islam ala prabowo, </a></th>
+                <th><a
+                        href="https://www.google.com/search?sca_esv=4ebf505db5655575&sxsrf=APpeQns_q0F2VdGtkCEEbKh5yzOckovAEQ:1790221284849&udm=28&fbs=ABfTbFWmYwLIYNEMFfx8WgwsNlLaHC42JQxROx1t8GoIA3GgK3Ry0icWoR4Jq7psfsRHH-bt00Y61ZD2BIOtMBAagjrHJcLDiTVO0kw5DJhinHh7NtLs8_g37Jz7FsEAcFtjizN90ik9PGvWK1l7eBvGEkNZjZN7QFpVwMPj5sY9pTphAqYk1nsvaxPDTR3FI9C97X8_ktMBxgwqaDGEei9COKWQKBMDNw&q=buku+filosofi+teras&ved=1t:220175&ictx=111&biw=1280&bih=665&dpr=2">Buku
+                        filosofi teras</a></th>
+            </ul>
+        </nav>
+    </header>
+    <figure>
+        <img src="C:\Users\LEGION\Downloads\mie ayam.jpg" alt="Buku Mie Ayam" loading="lazy">
+        <figcaption>Terkadang, yang kita cari bukanlah hidup yang besar, melainkan alasan kecil untuk tetap bertahan,
+            seperti seporsi mie
+            ayam
+            Novel ini tidak menggurui tentang depresi, tetapi menemani pembaca untuk menerima rasa sakit dan belajar
+            berdamai dengan
+            keadaan Kisah Ale mengingatkan kita bahwa kebebasan kecil di titik terendah bisa dimulai dari memilih
+            makanan kesukaan
+            sebelum menyerah</figcaption>
+    </figure>
+
+    <main>
+        <section id="bagian-1">
+            <h2>Tabel Buku Yang Pernah Dibaca</h2>
+            <table>
+                <caption scope="row">Daftar Buku</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Judul Buku</th>
+                        <th scope="col">Penulis</th>
+                        <th scope="col">Tahun Terbit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Islam Ala Prabowo</th>
+                        <td>Abdur Rahim Hasan</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Laut Bercerita</th>
+                        <td>Leila S. Chudori</td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Filosofi Teras</th>
+                        <td>Henry Manampiring</td>
+                        <td>2018</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="bagian-2">
+            <h2>Tambahkan Buku Baru</h2>
+
+            <form action="/simpan" method="post">
+                <p>
+                    <label for="nama-kolom">Judul Buku</label>
+                    <input type="text" id="nama-kolom" name="nama-kolom" required>
+                </p>
+                <p>
+                    <label for="penulis">Penulis</label>
+                    <input type="text" id="penulis" name="penulis" required>
+                </p>
+                <p>
+                    <label for="tahun-terbit">Tahun Terbit</label>
+                    <input type="number" id="tahun-terbit" name="tahun-terbit" required>
+                </p>
+                <button type="submit">Simpan</button>
+            </form>
+        </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>MUHAMMAD DZAKI HASAN · 25523118 · 2026</p>
+    </footer>
+</body>

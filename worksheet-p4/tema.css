@@ -1,0 +1,14 @@
+/* Ikut pengaturan sistem: lapis semantik saja yang diganti */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-bg: #151e33;
+        --color-fg: #E2E8F0;
+        --color-surface: #1E293B;
+        --color-border: #0d479f;
+        --color-primary: #7DA9F7;
+        /* versi lebih terang agar kontras tetap lolos */
+        --color-danger: #fc3d3d;
+        --color-focus: #FFC000;
+        --shadow-1: 0 1px 3px rgba(0, 0, 0, .45);
+    }
+}
