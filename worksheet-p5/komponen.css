@@ -1,0 +1,133 @@
+.form-kolom {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    /* jarak label ke isian, seragam */
+}
+
+label {
+    font-size: var(--text-sm);
+    font-weight: 600;
+}
+
+input,
+select,
+textarea {
+    font: inherit;
+    /* kolom isian ikut ukuran huruf halaman */
+    padding: var(--space-2) var(--space-3);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    color: var(--color-fg);
+    width: 100%;
+}
+
+caption {
+    padding-block: var(--space-2);
+    font-weight: 600;
+    text-align: left;
+}
+
+th,
+td {
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+}
+
+thead th {
+    font-weight: 700;
+}
+
+button {
+    font: inherit;
+    padding: var(--space-2) var(--space-4);
+    border: 1px solid transparent;
+    border-radius: var(--radius-md);
+    background: var(--color-primary);
+    color: var(--color-surface);
+    cursor: pointer;
+}
+
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: var(--space-4);
+}
+
+.kartu {
+    display: grid;
+    align-content: start;
+    gap: var(--space-3);
+    min-width: 0;
+    min-height: 14rem;
+    padding: var(--card-pad);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    box-shadow: var(--shadow-1);
+}
+
+.sorotan {
+    grid-column: 1 / -1;
+}
+
+.kartu__isi {
+    min-width: 0;
+}
+
+.kartu__kaki {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table th,
+table td {
+    overflow-wrap: anywhere;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table th:first-child,
+table td:first-child {
+    width: 38%;
+}
+
+table th:last-child,
+table td:last-child {
+    width: 20%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    min-width: 0;
+}
+
+form p {
+    display: grid;
+    grid-template-columns: minmax(0, 10rem) minmax(0, 1fr);
+    align-items: center;
+    gap: var(--space-3);
+    min-width: 0;
+}
+
+form button {
+    align-self: flex-start;
+}
+
+@media (max-width: 40rem) {
+    form p {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}

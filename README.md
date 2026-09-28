@@ -39,3 +39,11 @@ Tidak memakai AI
 Kriteria selesai saya: mengubah --color-primary di satu baris
 harus mengubah warna tombol, tautan, judul, dan garis fokus
 
+## Pertemuan 5 — Layout Modern: Flexbox dan Grid
+
+### Sketsa kerangka halaman
+
+- Wadah `.page`: `grid-template-rows: auto 1fr auto`, tinggi minimum `100dvh`.
+- Area isi: kolom `minmax(0, 16rem) minmax(0, 1fr)` dengan area bernama `sisi` dan `utama`; pada layar sempit keduanya ditumpuk.
+- Navbar dan kaki kartu memakai Flexbox; galeri memakai `repeat(auto-fit, minmax(16rem, 1fr))`.
+- Kartu tabel memakai `grid-column: 1 / -1` agar menonjol tanpa membuat kolom tambahan pada layar sempit.

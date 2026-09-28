@@ -1,0 +1,35 @@
+/* LAPIS 1 — primitif: nilai mentah, tidak menyebut peran apa pun */
+:root {
+    --blue-700: #1D3A8C;
+    --blue-500: #2563EB;
+    --gray-50: #F8FAFC;
+    --gray-900: #0F172A;
+
+    --space-1: 0.26rem;
+    --space-2: 0.6rem;
+    --space-3: 0.76rem;
+    --space-4: 1.2rem;
+    --space-6: 1.6rem;
+
+    --radius-md: 0.6rem;
+    --shadow-1: 0 1px 3px rgba(0, 0, 0, .20);
+
+    --text-sm: 0.876rem;
+    --text-md: 1.1rem;
+    --text-xl: 1.6rem;
+    --text-3xl: 2.26rem;
+}
+
+/* LAPIS 2 — semantik: peran. Isinya mengacu ke lapis 1. */
+:root {
+    --color-bg: var(--gray-50);
+    --color-fg: var(--gray-900);
+    --color-surface: #FFFFFF;
+    --color-border: #D1D5DB;
+    --color-primary: var(--blue-700);
+    --color-danger: #B00020;
+    --color-focus: var(--blue-500);
+
+    --card-pad: var(--space-4);
+    --section-gap: var(--space-6);
+}
