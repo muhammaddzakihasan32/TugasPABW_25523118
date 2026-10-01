@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daftar Buku yang Pernah Saya Baca</title>
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="komponen.css">
+    <link rel="stylesheet" href="tema.css">
+    <link rel="stylesheet" href="responsif.css">
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div class="header-baris">
+                <h1>Daftar Buku yang Pernah Saya Baca</h1>
+                <div class="header-kontrol">
+                    <input type="checkbox" id="tema" class="pengalih-tema" aria-label="Gunakan tema terang">
+                    <label for="tema" class="tombol-tema">Tema terang</label> <label for="tema" class="tombol-tema">Tema
+                        gelap</label>
+                    <nav aria-label="Navigasi utama">
+                        <ul class="navbar">
+                            <li><a href="#bagian-1">Daftar Buku</a></li>
+                            <li><a href="#bagian-2">Tambah Buku</a></li>
+                            <li><a href="#tentang">Tentang Saya</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="isi">
+            <aside class="sisi" aria-label="Buku pilihan">
+                <figure id="buku-pilihan">
+                    <img src="mie ayam.jpg" alt="Buku Mie Ayam" loading="lazy">
+                    <figcaption>
+                        Terkadang, yang kita cari bukanlah hidup yang besar, melainkan alasan kecil untuk tetap
+                        bertahan, seperti seporsi mie ayam. Novel ini menemani pembaca menerima rasa sakit dan
+                        berdamai dengan keadaan. Kisah Ale mengingatkan bahwa kebebasan kecil di titik terendah
+                        bisa dimulai dari memilih makanan kesukaan sebelum menyerah.
+                    </figcaption>
+                </figure>
+            </aside>
+
+            <div class="utama">
+                <div class="galeri">
+                    <section id="bagian-1" class="kartu sorotan">
+                        <h2>Tabel Buku yang Pernah Dibaca</h2>
+                        <div class="kartu__isi table-wrap">
+                            <table>
+                                <caption>Daftar Buku</caption>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Judul Buku</th>
+                                        <th scope="col">Penulis</th>
+                                        <th scope="col">Tahun Terbit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Islam Ala Prabowo</th>
+                                        <td>Abdur Rahim Hasan</td>
+                                        <td>2025</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Laut Bercerita</th>
+                                        <td>Leila S. Chudori</td>
+                                        <td>2017</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Filosofi Teras</th>
+                                        <td>Henry Manampiring</td>
+                                        <td>2018</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="kartu__kaki">
+                            <span>3 buku tercatat</span>
+                            <a href="#bagian-2">Tambah entri</a>
+                        </div>
+                    </section>
+
+                    <section id="bagian-2" class="kartu">
+                        <h2>Tambahkan Buku Baru</h2>
+                        <form action="/simpan" method="post">
+                            <p>
+                                <label for="nama-kolom">Judul Buku</label>
+                                <input type="text" id="nama-kolom" name="nama-kolom" required>
+                            </p>
+                            <p>
+                                <label for="penulis">Penulis</label>
+                                <input type="text" id="penulis" name="penulis" required>
+                            </p>
+                            <p>
+                                <label for="tahun-terbit">Tahun Terbit</label>
+                                <input type="number" id="tahun-terbit" name="tahun-terbit" required>
+                            </p>
+                            <button type="submit">Simpan</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer id="tentang">
+            <p>MUHAMMAD DZAKI HASAN · 25523118 · 2026</p>
+        </footer>
+    </div>
+</body>
+
+</html>
