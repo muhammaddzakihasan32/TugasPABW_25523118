@@ -54,4 +54,9 @@ harus mengubah warna tombol, tautan, judul, dan garis fokus
 - `map`, `filter`, dan `find` digunakan untuk mengolah daftar proyek.
 - **Penggunaan AI:** AI digunakan untuk membaca instruksi worksheet dan menyusun draf JavaScript serta penghubung skrip.karena perlu meninjau dan memahami setiap baris kode sebelum penyerahan.
 
+## Pertemuan 9 DOM, Event, dan Interaktivitas
 
+Menerapkan pemilihan elemen, render daftar proyek dari data P8, filter kategori dengan event delegation, dan validasi form buku.
+
+- Berkas: `worksheet-p9/profil.html`, seluruh CSS P8 di `worksheet-p9/`, `worksheet-p9/js/app.js`, dan `worksheet-p9/js/dom.js`.
+- **Deklarasi AI:** AI membantu membaca worksheet, menulis dan menyesuaikan implementasi DOM, filter, validasi form, serta bagian dokumentasi P9. Saya menyediakan halaman profil bertopik daftar buku dan data awal P8, lalu meninjau hasil kode. Saya bertanggung jawab memahami dan memeriksa kode sebelum penyerahan.
