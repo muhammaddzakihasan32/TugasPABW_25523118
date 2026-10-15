@@ -60,3 +60,10 @@ Menerapkan pemilihan elemen, render daftar proyek dari data P8, filter kategori 
 
 - Berkas: `worksheet-p9/profil.html`, seluruh CSS P8 di `worksheet-p9/`, `worksheet-p9/js/app.js`, dan `worksheet-p9/js/dom.js`.
 - **Penggunaan AI:** AI membantu membaca worksheet, filter, validasi form, serta bagian dokumentasi P9. Saya menyediakan halaman profil bertopik daftar buku dan data awal P8, lalu meninjau hasil kode.
+
+## Pertemuan 10 Asynchronous JavaScript dan Fetch API
+
+Penerapan pengambilan data asinkron menggunakan Fetch API, pemisahan lapisan data dan antarmuka, serta penanganan 4 keadaan antarmuka.
+
+
+- **Penggunaan AI:** AI membantu membaca instruksi Worksheet Pertemuan 10, menstrukturkan pemisahan lapisan kode (`api.js`, `dom.js`, `app.js`).
