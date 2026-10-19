@@ -66,6 +66,7 @@ Menerapkan pemilihan elemen, render daftar proyek dari data P8, filter kategori 
 Penerapan pengambilan data asinkron menggunakan Fetch API, pemisahan lapisan data dan antarmuka, serta penanganan 4 keadaan antarmuka.
 - **Penggunaan AI:** AI membantu membaca instruksi Worksheet Pertemuan 10, menstrukturkan pemisahan lapisan kode (`api.js`, `dom.js`, `app.js`).
 
+
 ## Pertemuan 11 Modul, State, dan Penyimpanan Klien
 
 Penerapan pemecahan arsitektur modular JavaScript menjadi lima berkas modul dengan tanggung jawab tunggal, manajemen state terpusat, dan penyimpanan klien (localStorage).
