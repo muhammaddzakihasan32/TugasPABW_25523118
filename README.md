@@ -71,3 +71,15 @@ Penerapan pengambilan data asinkron menggunakan Fetch API, pemisahan lapisan dat
 
 Penerapan pemecahan arsitektur modular JavaScript menjadi lima berkas modul dengan tanggung jawab tunggal, manajemen state terpusat, dan penyimpanan klien (localStorage).
 - **Penggunaan AI:** AI membantu membaca instruksi Worksheet Pertemuan 11, menstrukturkan pemecahan modul.
+
+## Pertemuan 12 Build Tooling, npm, dan Framework SPA
+
+Porting halaman profil modular ke arsitektur Single Page Application (SPA) berbasis komponen menggunakan Vite dan Vue 3.
+
+- **Empat Komponen:**
+  - `src/components/KepalaProfil.vue`: Bagian identitas atas halaman yang menerima data melalui props `:profil="profil"`.
+  - `src/components/TombolFilter.vue`: Deretan tombol kategori dan tombol atur ulang dengan status reaktif.
+  - `src/components/DaftarProyek.vue`: Daftar kartu buku/proyek dengan sampul buku, tombol bintang favorit, serta penanganan 4 ui.
+  - `src/components/FormKontak.vue`: Formulir tambah entri buku baru dengan validasi data masukan.
+  - `src/App.vue`: Komponen induk perakit yang menghubungkan keempat komponen dengan state reaktif dan persistensi `localStorage`.
+- **Penggunaan AI:** AI membantu membaca instruksi Worksheet Pertemuan 12, merakit arsitektur 4 komponen Vue (`KepalaProfil`, `TombolFilter`, `DaftarProyek`, `FormKontak`), serta memvalidasi build produksi Vite

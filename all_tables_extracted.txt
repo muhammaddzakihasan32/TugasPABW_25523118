@@ -1,0 +1,402 @@
+=== TABLE 1 ===
+  Row 0: WORKSHEET | P12 | Pertemuan 12  ·  Build Tooling, npm, dan Framework SPA
+=== TABLE 2 ===
+  Row 0: NAMA |  | NIM | 
+  Row 1: KELAS |  | TANGGAL | 
+=== TABLE 3 ===
+  Row 0: Dikerjakan sendiri, bukan berpasangan.  Setiap mahasiswa memorting halaman profilnya sendiri. Anda bebas memilih isi halaman; yang dinilai adalah apakah proyeknya berjalan, perilakunya tetap sama seperti Pertemuan 11, dan hasil buildnya bisa dibuka.
+=== TABLE 4 ===
+  Row 0: Capaian pembelajaran | Yang dinilai hari ini
+  Row 1: Mahasiswa mampu memorting halaman modular menjadi komponen, menjalankannya dengan npm dan Vite, lalu membangunnya untuk produksi. | 1. npm run dev membuka halaman, Console bersih.2. Token, CSS, dan HTML P03–P06 dipakai apa adanya.3. Empat komponen tersusun dan berbagi data lewat props.4. npm run build menghasilkan folder dist/.5. npm run preview menjalankan hasil build itu.
+=== TABLE 5 ===
+  Row 0: Hal | Ketetapan
+  Row 1: Bentuk kerja | Individu. Satu mahasiswa, satu proyek, satu topik.
+  Row 2: Perkakas | Node.js LTS dan npm (pekerjaan rumah dari Pertemuan 11). VS Code, terminal, dan peramban.
+  Row 3: Berkas awal | Seluruh berkas hasil Pertemuan 11: profil.html, enam berkas CSS, js/app.js, js/dom.js, js/data.js, js/state.js, js/events.js — ditambah js/api.js dari Pertemuan 10.
+  Row 4: Tempat kerja | Folder baru worksheet-p12/. Kerangka Vue dibuat di dalamnya, bukan di folder lain.
+  Row 5: Waktu | 90 menit di kelas. Bila belum selesai, dilanjutkan di luar kelas paling lambat pukul 23.59 pada hari yang sama.
+  Row 6: Penyerahan | Seluruh isi worksheet-p12/ diunggah ke repositori GitHub Anda sendiri, di dalam folder semester ~/pabw/. Periksa halaman repositori Anda, bukan hanya folder di laptop.
+=== TABLE 6 ===
+  Row 0: Menit | Lembar | Yang Anda kerjakan | Kalau waktu habis, berhenti di sini
+  Row 1: 0–9 | A | Periksa node -v dan npm -v; perbaiki bila belum jalan; catat dua versinya | Dua perintah berjalan, versi tercatat
+  Row 2: 9–21 | B | Folder worksheet-p12/ kosong, npm create vite, npm install, tulis .gitignore | npm run dev membuka halaman contoh Vue
+  Row 3: 21–35 | C | Pindahkan aset P11 ke proyek Vue, impor CSS di main.js, hapus berkas contoh | Tampilan sama seperti P11 lewat npm run dev (daftar proyek kembali di lembar E)
+  Row 4: 35–52 | D | Pecah jadi empat komponen; alirkan data lewat props | Empat komponen tersusun, perilaku sama
+  Row 5: 52–68 | E | State reaktif dan localStorage lewat onMounted dan watch | Pilihan terakhir tetap ada setelah muat ulang
+  Row 6: 68–82 | F | npm run build, npm run preview, bandingkan ukuran, tiga kasus sulit | dist/ terbentuk, situs jalan dari npm run preview
+  Row 7: 82–90 | G | Periksa satu per satu, satu baris untuk diingat, tiket keluar, penilaian mandiri, README | Lembar G terisi dan tersimpan
+=== TABLE 7 ===
+  Row 0: Selalu kerjakan berurutan.  Lembar C mengandaikan lembar B sudah selesai, dan lembar E mengandaikan empat komponen sudah tersusun. Kolom paling kanan bukan batas waktu — hanya penunjuk laju.
+=== TABLE 8 ===
+  Row 0: WORKSHEET | A | Pertemuan 12  ·  Build Tooling, npm, dan Framework SPA
+=== TABLE 9 ===
+  Row 0: ▌  PERKAKAS DIPERIKSA SEBELUM BEKERJA
+=== TABLE 10 ===
+  Row 0: node -vnpm -v
+=== TABLE 11 ===
+  Row 0: Perintah | Versi yang muncul | Catatan bila gagal
+  Row 1: node -v |  | Bila perintahnya tidak dikenali: pasang Node.js LTS dari nodejs.org
+  Row 2: npm -v |  | Bila hanya ini yang gagal: buka ulang terminal, lalu periksa PATH
+  Row 3: npm (bila ada) | 
+=== TABLE 12 ===
+  Row 0: Versi Current bukan versi yang dipakai kelas ini.  Yang LTS punya masa dukungan lebih panjang dan dipakai di komputer laboratorium. Bila nomor versi Anda ganjil dan baru saja rilis, pasang ulang yang LTS.
+=== TABLE 13 ===
+  Row 0: Berkas | Ada? | Jumlah baris
+  Row 1: profil.html | 
+  Row 2: Enam berkas CSS (P04–P06) | 
+  Row 3: js/app.js, js/dom.js | 
+  Row 4: js/data.js, js/state.js, js/events.js | 
+  Row 5: js/api.js dari Pertemuan 10 | 
+=== TABLE 14 ===
+  Row 0: Yang diperiksa | Hasil yang benar | Hasil yang saya dapat
+  Row 1: Folder worksheet-p12/ | Ada di dalam ~/pabw, masih kosong | 
+  Row 2: node_modules/ di worksheet-p11/ | Tidak ada — node_modules tidak pernah disalin | 
+  Row 3: Berkas P11 sudah di-commit | git status bersih sebelum mulai | 
+  Row 4: Nomor port npm run dev | Dicatat; simpanan localStorage terikat port itu | 
+=== TABLE 15 ===
+  Row 0: Sebelum menghapus apa pun, pastikan pekerjaan P11 sudah di-commit.  Kerangka Vite yang dibuat di folder yang sudah berisi berkas akan menawarkan pilihan menghapus seluruh isi folder itu — dan yang tersisa hanya .git.
+=== TABLE 16 ===
+  Row 0: Sudah dikerjakan | Tanda
+  Row 1: node -v dan npm -v keduanya menjawab dengan nomor versi | 
+  Row 2: Node.js yang terpasang versi LTS, bukan Current | 
+  Row 3: Seluruh berkas Pertemuan 11 lengkap dan sudah di-commit | 
+  Row 4: Folder worksheet-p12/ sudah ada dan masih kosong | 
+  Row 5: Dua nomor versi sudah saya catat, untuk ditulis di README di lembar G | 
+=== TABLE 17 ===
+  Row 0: ▌  SIMPAN KE GIT — SETELAH LEMBAR A
+=== TABLE 18 ===
+  Row 0: git add .git commit -m "pesan Anda"git push# pesan commit yang disarankan:# P12 — perkakas diperiksa, versi dicatat
+=== TABLE 19 ===
+  Row 0: WORKSHEET | B | Pertemuan 12  ·  Build Tooling, npm, dan Framework SPA
+=== TABLE 20 ===
+  Row 0: ▌  PROYEK BARU, FOLDER BARU
+=== TABLE 21 ===
+  Row 0: cd ~/pabwmkdir worksheet-p12cd worksheet-p12npm create vite@latest . -- --template vuenpm installnpm run dev
+=== TABLE 22 ===
+  Row 0: Pilihan di layar | Yang terjadi | Yang Anda pilih
+  Row 1: Cancel operation | Perintah berhenti; tidak ada berkas yang disentuh | Pilih ini
+  Row 2: Remove existing files and continue | Seluruh isi folder dihapus, kecuali .git | Jangan — pekerjaan P11 bisa hilang
+  Row 3: Ignore files and continue | Folder tidak dikosongkan; nama yang bentrok ditimpa | Jangan — berkas P11 bisa tertimpa
+=== TABLE 23 ===
+  Row 0: Pada folder kosong baris pertama tabel itu tidak pernah ditawarkan.  Inilah alasan lembar ini dikerjakan sebelum aset P11 dipindahkan — bukan sesudah.
+=== TABLE 24 ===
+  Row 0: Berkas / folder | Perannya | Keterangan
+  Row 1: index.html | Halaman tunggal di akar proyek | Isi <head> dari profil.html; <div id="app"> dan <script src="/src/main.js"> jangan dihapus
+  Row 2: src/main.js | Titik masuk — tempat mengimpor CSS global | Nanti ditambahi impor CSS P04–P06
+  Row 3: src/App.vue | Komponen induk | Nanti memuat empat komponen Anda
+  Row 4: src/components/ | Tempat komponen | HelloWorld.vue di dalamnya akan dihapus
+  Row 5: public/ | Berkas statis yang dibaca lewat alamat | Tempat berkas .json statis dari P10
+  Row 6: vite.config.js | Pengaturan Vite | Tidak perlu diubah di pertemuan ini
+  Row 7: package.json | Daftar isi proyek | Berisi scripts, dependencies, devDependencies
+=== TABLE 25 ===
+  Row 0: # worksheet-p12/.gitignorenode_modules/dist/.env.DS_Store# JANGAN diabaikan:# package.json# package-lock.json
+=== TABLE 26 ===
+  Row 0: Diabaikan | Kenapa
+  Row 1: node_modules/ | Isinya ribuan berkas dan bisa dipasang ulang dengan npm install
+  Row 2: dist/ | Hasil build, dibuat ulang dengan npm run build
+  Row 3: package-lock.json | JUSTRU DISIMPAN — ia yang mengunci versi tepat seluruh paket
+=== TABLE 27 ===
+  Row 0: Yang diperiksa | Hasil yang benar | Hasil yang saya dapat
+  Row 1: Halaman terbuka | Halaman contoh Vue tampil di peramban | 
+  Row 2: Alamat di terminal | Ada nomor port, misalnya localhost:5173 — dicatat | 
+  Row 3: Console | Bersih, tanpa pesan merah | 
+  Row 4: Folder node_modules/ | Ada di dalam worksheet-p12/ | 
+  Row 5: Git status | node_modules/ dan dist/ tidak terdaftar | 
+=== TABLE 28 ===
+  Row 0: Hentikan server dengan Ctrl+C sebelum menutup terminal.  Selama server berjalan, terminal itu terpakai dan perintah lain tidak bisa dijalankan di dalamnya.
+=== TABLE 29 ===
+  Row 0: ▌  SIMPAN KE GIT — SETELAH LEMBAR B
+=== TABLE 30 ===
+  Row 0: git add .git commit -m "pesan Anda"git push# pesan commit yang disarankan:# P12 — kerangka Vue di folder kosong
+=== TABLE 31 ===
+  Row 0: WORKSHEET | C | Pertemuan 12  ·  Build Tooling, npm, dan Framework SPA
+=== TABLE 32 ===
+  Row 0: ▌  PINDAH TANPA MENGUBAH PERILAKU
+=== TABLE 33 ===
+  Row 0: Berkas P11 | Tujuannya di proyek Vue | Yang diubah
+  Row 1: profil.html | index.html (bagian <head>) dan src/App.vue (bagian <body>) | Isi <body> dipindah ke <template> di App.vue untuk sementara, lalu dipecah di lembar D. Baris <link> CSS dan <script> lama dibuang.
+  Row 2: Enam berkas CSS | src/ (mis. src/tokens.css) | Isinya tidak disentuh sama sekali
+  Row 3: js/app.js, js/dom.js | src/ — dipakai saat memecah komponen | Dipecah di lembar D
+  Row 4: js/data.js | src/data.js (profil dan fungsi murni) | Isinya tetap
+  Row 5: data/proyek.json dari Pertemuan 10 | public/data/proyek.json | Isinya tetap; ALAMAT di api.js tidak perlu diubah
+  Row 6: js/state.js, js/events.js | src/ — dipakai saat menyambungkan kembali | Dipecah di lembar D dan E
+  Row 7: js/api.js dari Pertemuan 10 | src/api.js | Ikut dipindahkan, bukan dibuang
+=== TABLE 34 ===
+  Row 0: // src/main.jsimport { createApp } from 'vue'import App from './App.vue'// gaya asli P04-P06, isinya tidak diubah// tulis keenam berkas CSS Anda, satu baris per berkasimport './tokens.css'import './layout.css'import './komponen.css'// ... tiga berkas lainnyacreateApp(App).mount('#app')
+=== TABLE 35 ===
+  Row 0: Yang diperiksa | Hasil yang benar | Hasil yang saya dapat
+  Row 1: Baris <link> di index.html | Tidak ada lagi | 
+  Row 2: Enam berkas CSS | Ada di src/ dan diimpor di main.js | 
+  Row 3: Tampilan halaman | Sama seperti P11 — warna, huruf, jarak | 
+  Row 4: Console | Bersih; tidak ada galat 404 berkas CSS | 
+  Row 5: Berkas contoh Vue | HelloWorld.vue dan isinya sudah dihapus | 
+=== TABLE 36 ===
+  Row 0: Gaya yang hilang hampir selalu berarti CSS-nya belum diimpor di main.js.  Periksa Console: satu baris 404 sudah cukup untuk menjelaskan seluruh halaman yang tampak polos.
+=== TABLE 37 ===
+  Row 0: Bentuk berkas | Letaknya
+  Row 1: Kode JavaScript yang diimpor | src/
+  Row 2: Berkas .json statis | public/
+  Row 3: Gambar yang dipakai di CSS | public/
+  Row 4: Gambar yang diimpor kode | src/assets/
+=== TABLE 38 ===
+  Row 0: Yang diperiksa | Hasil yang benar | Hasil yang saya dapat
+  Row 1: Halaman di npm run dev | Tampilan sama seperti P11; daftar proyek baru muncul lagi di lembar E | 
+  Row 2: Berkas contoh Vite | Sudah dihapus seluruhnya | 
+  Row 3: Data | profil dari src/data.js; daftar proyek dari public/data/proyek.json lewat src/api.js (disambung di lembar E) | 
+  Row 4: Tampilan diubah? | Tidak — token dan CSS P04–P06 apa adanya | 
+=== TABLE 39 ===
+  Row 0: ▌  SIMPAN KE GIT — SETELAH LEMBAR C
+=== TABLE 40 ===
+  Row 0: git add .git commit -m "pesan Anda"git push# pesan commit yang disarankan:# P12 — aset P11 dipindahkan apa adanya
+=== TABLE 41 ===
+  Row 0: WORKSHEET | D | Pertemuan 12  ·  Build Tooling, npm, dan Framework SPA
+=== TABLE 42 ===
+  Row 0: ▌  SATU KOMPONEN, SATU BAGIAN HALAMAN
+=== TABLE 43 ===
+  Row 0: Komponen | Bagian halaman yang dipindahkan | Data yang dipakainya
+  Row 1: KepalaProfil.vue | Bagian identitas di atas halaman | props profil dari App.vue
+  Row 2: TombolFilter.vue | Deretan tombol kategori dan tombol atur ulang | state bersama
+  Row 3: DaftarProyek.vue | Daftar kartu proyek, tombol ☆, dan pesan memuat, kosong, atau gagal | state bersama
+  Row 4: FormKontak.vue | Formulir kontak | state bersama
+=== TABLE 44 ===
+  Row 0: Yang Anda tulis di P08–P11 | Bentuknya di Vue
+  Row 1: dataProyek.map(...) lalu ditempel | v-for="proyek in state.daftarProyek"
+  Row 2: saring() dari data.js | computed(() => saring(state.daftarProyek, state.kategoriAktif))
+  Row 3: textContent = nilai | {{ nilai }}
+  Row 4: setAttribute("src", ...) | :src="..."
+  Row 5: addEventListener("click", ...) | @click="..."
+  Row 6: Membaca input.value | v-model="..."
+  Row 7: Wajib :key berisi id unik | Vue memakai key untuk mengenali setiap baris
+=== TABLE 45 ===
+  Row 0: // src/components/KepalaProfil.vue<script setup>const props = defineProps({  profil: { type: Object, required: true },})</script><template>  <h1>{{ props.profil.nama }}</h1>  <p>{{ props.profil.peran }}</p></template>// src/App.vueimport { profil } from './data.js'     // profil ada di data.js sejak P11<KepalaProfil :profil="profil" />
+=== TABLE 46 ===
+  Row 0: Yang diperiksa | Hasil yang benar | Hasil yang saya dapat
+  Row 1: Empat komponen | Satu berkas .vue untuk setiap bagian halaman | 
+  Row 2: props KepalaProfil | Terisi dari App.vue lewat :profil | 
+  Row 3: props diubah dari anak? | Tidak — anak hanya membaca | 
+  Row 4: Nama berkas dan impor | Ditulis persis sama, huruf besar-kecilnya juga | 
+  Row 5: Console | Bersih, tanpa peringatan props | 
+=== TABLE 47 ===
+  Row 0: Nama berkas yang berbeda hanya pada huruf besar-kecil akan berjalan di Windows dan gagal di Linux.  Periksalah satu per satu selagi jumlahnya baru empat — jauh lebih lama bila sudah ratusan.
+=== TABLE 48 ===
+  Row 0: Komponen | Di dalam komponen apa ia dipakai | Menerima props?
+  Row 1: KepalaProfil.vue | 
+  Row 2: TombolFilter.vue | 
+  Row 3: DaftarProyek.vue | 
+  Row 4: FormKontak.vue | 
+=== TABLE 49 ===
+  Row 0: ▌  SIMPAN KE GIT — SETELAH LEMBAR D
+=== TABLE 50 ===
+  Row 0: git add .git commit -m "pesan Anda"git push# pesan commit yang disarankan:# P12 — empat komponen tersusun
+=== TABLE 51 ===
+  Row 0: WORKSHEET | E | Pertemuan 12  ·  Build Tooling, npm, dan Framework SPA
+=== TABLE 52 ===
+  Row 0: ▌  KEADAAN DI SATU TEMPAT, TAMPILAN MENGIKUTI SENDIRI
+=== TABLE 53 ===
+  Row 0: Pertemuan 11 | Pertemuan 12 | Catatan
+  Row 1: const state = { ... } | const state = reactive({ ... }) | reactive dipilih karena paling mirip objek state P11
+  Row 2: Fungsi pengubah (pilihKategori, tambahFavorit, isiProyek, aturUlang) memanggil render(state) | Hapus render(state) dari semua fungsi pengubah; cukup ubah state | Vue menggambar ulang bagian yang berubah
+  Row 3: render(state) ditulis sendiri | Tidak ada render() manual | template menggantikannya
+  Row 4: Nilai tunggal disimpan di variabel | const pesan = ref('') | Dipakai hanya untuk nilai tunggal seperti isi form
+=== TABLE 54 ===
+  Row 0: // src/state.jsimport { reactive } from 'vue'export const state = reactive({  kategoriAktif: 'semua',  daftarProyek: [],     // diisi dari api.js  favorit: [],  memuat: true,         // keadaan memuat dari P10  galat: '',            // keadaan gagal dari P10})export function pilihKategori(nilai) {  state.kategoriAktif = nilai      // tanpa render()}// simpan(), muat(), pulihkan(), aturUlang(), tambahFavorit(), dan isiProyek()// dari P11 ikut dipindah ke sini, semuanya tanpa render()
+=== TABLE 55 ===
+  Row 0: // src/App.vue  (bagian <script setup>)import { onMounted, watch } from 'vue'import { state, simpan, muat, pulihkan, isiProyek } from './state.js'import { ambilProyek } from './api.js'onMounted(async () => {  pulihkan(muat())                   // pilihan terakhir dari localStorage  try {    isiProyek(await ambilProyek())   // data/proyek.json atau GitHub  } catch (galat) {    state.galat = 'Data gagal dimuat. Periksa koneksi, lalu muat ulang.'  } finally {    state.memuat = false  }})watch(state, (nilai) => simpan(nilai), { deep: true })// src/components/DaftarProyek.vue  (bagian <template>)<p v-if="state.memuat">Memuat data...</p><p v-else-if="state.galat">{{ state.galat }}</p><p v-else-if="tampil.length === 0">Belum ada data.</p>
+=== TABLE 56 ===
+  Row 0: Yang diperiksa | Hasil yang benar | Hasil yang saya dapat
+  Row 1: Ganti kategori | Hanya state yang berubah; tampilan mengikuti sendiri | 
+  Row 2: Tutup tab, lalu buka lagi | Pilihan terakhir masih ada | 
+  Row 3: localStorage di Console | Isinya berupa teks JSON, bukan [object Object] | 
+  Row 4: render(state) lama | Sudah tidak ada di berkas mana pun | 
+  Row 5: Console | Bersih; tidak ada peringatan watch atau reaktivitas | 
+=== TABLE 57 ===
+  Row 0: Yang ditulis di Console | Yang harus terjadi | Hasil yang saya dapat
+  Row 1: localStorage.setItem("pabw-p11", "bukan-json") | Halaman tetap terbuka; simpanan dibuang; nilai bawaan dipakai | 
+  Row 2: npm run dev dihentikan lalu dijalankan lagi | Pilihan terakhir tetap ada | 
+  Row 3: localStorage.clear() | Halaman kembali ke nilai bawaan tanpa galat | 
+=== TABLE 58 ===
+  Row 0: Bila simpanan tidak terbaca lagi setelah proyek dipindahkan, periksa kunci dan nomor port.  Simpanan terikat pada alamat beserta portnya, dan Vite memilih port yang berbeda bila port sebelumnya sedang terpakai.
+=== TABLE 59 ===
+  Row 0: ▌  SIMPAN KE GIT — SETELAH LEMBAR E
+=== TABLE 60 ===
+  Row 0: git add .git commit -m "pesan Anda"git push# pesan commit yang disarankan:# P12 — keadaan reaktif dan simpanan tersambung
+=== TABLE 61 ===
+  Row 0: WORKSHEET | F | Pertemuan 12  ·  Build Tooling, npm, dan Framework SPA
+=== TABLE 62 ===
+  Row 0: ▌  SUMBER DAN HASIL DISIMPAN DI TEMPAT BERBEDA
+=== TABLE 63 ===
+  Row 0: npm run build      # menghasilkan folder dist/npm run preview    # menjalankan isi dist/
+=== TABLE 64 ===
+  Row 0: Perintah | Yang dijalankan | Kapan dipakai
+  Row 1: npm run dev | Sumber Anda, apa adanya, dengan pemuatan ulang otomatis | Selama mengerjakan
+  Row 2: npm run build | Menggabungkan dan memperkecil sumber menjadi dist/ | Sesudah pekerjaan selesai
+  Row 3: npm run preview | Menjalankan isi dist/ seperti situs sungguhan | Untuk memastikan hasil build benar
+=== TABLE 65 ===
+  Row 0: Hentikan npm run dev dengan Ctrl+C sebelum menjalankan npm run build.  Keduanya memakai terminal yang sama, dan hasil build yang dibuat sambil server berjalan sering membingungkan karena alamatnya berbeda.
+=== TABLE 66 ===
+  Row 0: Yang diperiksa | Hasil yang saya dapat
+  Row 1: Folder dist/ terbentuk | 
+  Row 2: dist/index.html ada | 
+  Row 3: dist/assets/ berisi berkas .js dan .css | 
+  Row 4: Nama berkas di dist/assets/ memuat huruf dan angka acak | 
+  Row 5: Halaman jalan lewat npm run preview | 
+  Row 6: Console bersih saat preview dibuka | 
+=== TABLE 67 ===
+  Row 0: Yang diukur | Sebelum build | Sesudah build
+  Row 1: Ukuran seluruh berkas yang dikirim | 
+  Row 2: Jumlah berkas yang dikirim peramban | 
+  Row 3: Cara mengukurnya di DevTools | Tab Network, muat ulang halaman | 
+=== TABLE 68 ===
+  Row 0: Kasus | Gejala | Yang dilakukan
+  Row 1: Nama berkas berbeda huruf besar-kecil | Jalan di Windows, gagal di Linux atau CI | Samakan huruf besar-kecil nama berkas dan nama impor, persis
+  Row 2: dist/ ter-commit | Riwayat penuh berkas hasil build ber-hash | git rm -r --cached dist/, lalu abaikan lewat .gitignore
+  Row 3: Gambar tidak muncul | Gambar ada, tetapi alamatnya salah | public/ dibaca lewat /nama.png; src/assets/ diimpor kode
+=== TABLE 69 ===
+  Row 0: Yang tidak di-commit | Alasan saya
+  Row 1:  | Hasil build dibuat ulang kapan saja dengan npm run build
+  Row 2:  | Isinya ribuan berkas dan bisa dipasang ulang dengan npm install
+=== TABLE 70 ===
+  Row 0: Simpan satu tangkapan layar halaman yang jalan dari npm run preview.  Bukti itu yang Anda perlukan di lembar G, dan yang membuat pekerjaan Anda bisa diperiksa tanpa harus menjalankan terminal dosen.
+=== TABLE 71 ===
+  Row 0: ▌  SIMPAN KE GIT — SETELAH LEMBAR F
+=== TABLE 72 ===
+  Row 0: git add .git commit -m "pesan Anda"git push# pesan commit yang disarankan:# P12 — build produksi berhasil
+=== TABLE 73 ===
+  Row 0: WORKSHEET | G | Pertemuan 12  ·  Build Tooling, npm, dan Framework SPA
+=== TABLE 74 ===
+  Row 0: ▌  TIKET KELUAR
+=== TABLE 75 ===
+  Row 0: Dikerjakan sendiri, tanpa berdiskusi.  Lembar ini mengukur pemahaman Anda, bukan kecepatan Anda menyalin jawaban teman.
+=== TABLE 76 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 77 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 78 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 79 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 80 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 81 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 82 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 83 ===
+  Row 0: ☐  Perkakas  node -v dan npm -v menjawab; versinya tercatat di README
+=== TABLE 84 ===
+  Row 0: ☐  Proyek  worksheet-p12/ dibuat dari folder kosong; npm run dev membuka halaman tanpa galat
+=== TABLE 85 ===
+  Row 0: ☐  Porting  halaman tampil sama seperti P11; token dan CSS P04–P06 tidak diubah
+=== TABLE 86 ===
+  Row 0: ☐  Komponen  empat komponen tersusun; KepalaProfil menerima props profil; nama berkas dan impor ditulis sama
+=== TABLE 87 ===
+  Row 0: ☐  Keadaan  state memakai reactive(); tidak ada render(state) manual lagi
+=== TABLE 88 ===
+  Row 0: ☐  Simpanan  onMounted memuat dan watch menyimpan; pilihan terakhir bertahan setelah tab ditutup
+=== TABLE 89 ===
+  Row 0: ☐  Build  npm run build menghasilkan dist/; npm run preview menjalankannya; dua ukuran sudah dibandingkan
+=== TABLE 90 ===
+  Row 0: ☐  Git  .gitignore memuat node_modules/ dan dist/; package-lock.json ikut di-commit; lebih dari satu commit
+=== TABLE 91 ===
+  Row 0: ☐  Deklarasi AI  README menyebutkan bagian mana yang dibantu AI dan bagian mana yang saya kerjakan sendiri
+=== TABLE 92 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 93 ===
+  Row 0: ☐  Pengungkapan AI  README menyebutkan bagian mana yang dibantu AI dan bagian mana yang saya kerjakan sendiri
+=== TABLE 94 ===
+  Row 0: ☐  Keaslian  topik dan isi halaman ini milik saya sendiri, tidak menyalin pekerjaan mahasiswa lain
+=== TABLE 95 ===
+  Row 0: Bagian | Bobot
+  Row 1: Proyek Vue berjalan | 
+  Row 2: Porting tanpa mengubah perilaku | 
+  Row 3: Pemecahan komponen dan props | 
+  Row 4: Build produksi dan preview | 
+  Row 5: Kebersihan src/, .gitignore, deklarasi AI, bukti | 
+  Row 6: TOTAL | 
+=== TABLE 96 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 97 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 98 ===
+  Row 0: 
+  Row 1: 
+=== TABLE 99 ===
+  Row 0: Pertemuan 13 adalah Ujian CPMK Blok 2.  Bahan ujiannya DOM, event, dan API JSON — seluruhnya vanilla. Framework tidak diujikan, jadi simpan proyek ini rapi tanpa perlu menghafal Vue.
+=== TABLE 100 ===
+  Row 0: ▌  SIMPAN KE GIT — SETELAH LEMBAR G
+=== TABLE 101 ===
+  Row 0: git add .git commit -m "pesan Anda"git push# pesan commit yang disarankan:# P12 — periksa, lalu simpan
+=== TABLE 102 ===
+  Row 0: WORKSHEET | H | Pertemuan 12  ·  Build Tooling, npm, dan Framework SPA
+=== TABLE 103 ===
+  Row 0: ▌  RUBRIK PENILAIAN        total 100
+=== TABLE 104 ===
+  Row 0: Aspek | Bobot | Nilai 100 — sangat baik | Nilai 65 — memadai | Nilai 35 — kurang
+  Row 1: Proyek Vue berjalan | 20% | Proyek dibuat dari folder kosong; npm run dev membuka halaman; Console bersih; nol galat impor | Proyek berjalan, tetapi Console memuat peringatan yang tidak ditangani, atau halaman contoh masih tersisa | Proyek tidak berjalan, atau dikerjakan di folder yang sudah berisi pekerjaan P11
+  Row 2: Porting tanpa mengubah perilaku | 25% | Token, CSS, dan HTML P03–P06 dipakai apa adanya; tampilan sama seperti P11; berkas dari P10 ikut dipindahkan | Halaman jalan, tetapi ada nilai token yang ditulis ulang atau bagian halaman yang hilang dari P11 | Porting tidak selesai, atau desain diubah sehingga bukan lagi pekerjaan mahasiswa itu sendiri
+  Row 3: Pemecahan komponen dan props | 20% | Empat komponen tersusun dengan satu tanggung jawab; KepalaProfil menerima props profil; props dibaca saja; penamaan konsisten | Komponen terpisah, tetapi props diubah dari anak atau satu komponen masih memikul dua bagian halaman | Halaman masih satu berkas besar, atau props tidak dipakai sama sekali
+  Row 4: Build produksi dan preview | 25% | npm run build menghasilkan dist/; npm run preview menjalankannya; dua ukuran dibandingkan dan dicatat | dist/ terbentuk, tetapi belum pernah dibuka lewat npm run preview atau ukurannya belum dibandingkan | Build gagal, atau dist/ di-commit sehingga hasilnya tidak bisa dipisahkan dari sumber
+  Row 5: Kebersihan, .gitignore, dan bukti | 10% | src/ rapi tanpa berkas contoh; node_modules/ dan dist/ diabaikan; lockfile di-commit; deklarasi AI terisi; lebih dari satu commit | Repo bersih tetapi deklarasi AI belum lengkap, atau hanya satu commit | Deklarasi AI kosong, node_modules/ ter-commit, atau pekerjaan tidak tersimpan
+=== TABLE 105 ===
+  Row 0: Yang dinilai adalah proyek Anda sendiri.  Isi halaman boleh berbeda antar mahasiswa; yang diperiksa adalah apakah setiap bagian bekerja sebagaimana dimaksud dan apakah portingnya tidak mengubah perilaku halaman P11.
+=== TABLE 106 ===
+  Row 0: ▌  REFERENSI CEPAT NPM, VITE, DAN KOMPONEN        hafalkan yang ini
+=== TABLE 107 ===
+  Row 0: Yang dipakai | Perannya | Kapan dipakai
+  Row 1: npm create vite@latest . -- --template vue | Membuat kerangka proyek di folder ini | 
+  Row 2: npm install | Memasang paket sesuai package.json | 
+  Row 3: npm run dev | Menjalankan server pengembangan | 
+  Row 4: npm run build | Menghasilkan folder dist/ | 
+  Row 5: npm run preview | Menjalankan isi dist/ | 
+  Row 6: package.json | Daftar isi proyek | 
+  Row 7: package-lock.json | Mengunci versi tepat seluruh paket | 
+  Row 8: reactive({ }) | Objek state yang tampilan mengikutinya | 
+  Row 9: ref(nilai) | Nilai tunggal yang reaktif | 
+  Row 10: defineProps({ }) | Menyatakan data yang diterima dari induk | 
+  Row 11: v-for / v-if | Padanan map dan filter | 
+  Row 12: v-model | Mengikat isi form dua arah | 
+  Row 13: watch | Menjalankan sesuatu saat nilai berubah | 
+  Row 14: onMounted | Menjalankan sesuatu sekali saat komponen dipasang | 
+=== TABLE 108 ===
+  Row 0: ▌  KALAU MACET        cari gejalanya di sini
+=== TABLE 109 ===
+  Row 0: Gejala | Penyebab yang paling sering | Yang dilakukan
+  Row 1: Current directory is not empty | Perintah dijalankan di folder yang sudah berisi berkas | Pilih Cancel, lalu buat folder baru yang kosong
+  Row 2: node -v tidak dikenali | PATH belum memuat Node.js, atau terminal lama | Tutup dan buka ulang terminal; pasang ulang bila tetap gagal
+  Row 3: Halaman polos tanpa warna | CSS belum diimpor di main.js | Tambahkan import './tokens.css' dan seterusnya di main.js
+  Row 4: Console: 404 berkas CSS | Jalur impor CSS salah | Periksa nama berkas di src/
+  Row 5: Failed to resolve import | Nama berkas berbeda huruf besar-kecil | Samakan nama berkas, nama impor, dan pemakaiannya
+  Row 6: props tidak muncul isinya | props diakses tanpa props. atau didestrukturisasi | Akses lewat props.nama, atau pakai toRefs
+  Row 7: Daftar tampil tetapi aneh saat berubah | :key belum dipasang | Tambahkan :key berisi id unik
+  Row 8: Vue: Component is missing template | Penanda ditulis di dalam <script setup> | Pindahkan penanda ke dalam <template>
+  Row 9: Simpanan tidak terbaca lagi | Port server berubah, atau kunci localStorage berbeda | Pakai satu kunci tetap dan catat nomor portnya
+  Row 10: dist/ ikut ter-commit | dist/ belum ada di .gitignore | git rm -r --cached dist/, lalu tambahkan ke .gitignore
+  Row 11: Build gagal di komputer lain | Versi Node.js berbeda | Samakan versi LTS, catat nomornya di README
+  Row 12: Gambar tidak muncul | Gambar di src/assets/ tetapi dipanggil lewat alamat | Impor gambarnya di kode, atau pindahkan ke public/
+=== TABLE 110 ===
+  Row 0: ▌  LAMPIRAN — MENYIMPAN PEKERJAAN ANDA KE GIT        sekali saja, bukan tiap pertemuan
+=== TABLE 111 ===
+  Row 0: Perintah | Artinya | Kapan dijalankan
+  Row 1: git add . | Menandai seluruh perubahan di folder ini, kecuali yang ada di .gitignore | Setiap kali selesai satu lembar
+  Row 2: git commit -m "pesan" | Menyimpan perubahan itu sebagai satu riwayat | Langsung setelah git add
+  Row 3: git status | Menampilkan apa yang akan disimpan | Sebelum commit pertama
+=== TABLE 112 ===
+  Row 0: Titik pada git add .  Titik itu berarti "seluruh berkas di folder ini".  Berkat .gitignore, node_modules/ dan dist/ tidak ikut meskipun titik itu dipakai.
+=== TABLE 113 ===
+  Row 0: Kalau ini terjadi | Yang Anda lakukan
+  Row 1: Sudah menulis banyak, belum pernah commit | Simpan sekarang juga
+  Row 2: node_modules/ terlanjur ter-commit | git rm -r --cached node_modules/, commit, lalu abaikan
+  Row 3: Salah commit, belum push | Perbaiki lalu commit lagi — jangan hapus repositori
+  Row 4: Sudah push, lalu menemukan kekeliruan | Perbaiki berkasnya dan commit lagi; riwayat lama tidak hilang dan itu wajar
+=== TABLE 114 ===
+  Row 0: Yang dinilai bukan jumlah commit.  Menyimpan sering membuat pekerjaan Anda tidak bergantung pada satu berkas di satu komputer — dan pekerjaan yang tidak ada di repositori tidak dapat dinilai.
