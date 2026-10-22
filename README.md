@@ -82,4 +82,4 @@ Porting halaman profil modular ke arsitektur Single Page Application (SPA) berba
   - `src/components/DaftarProyek.vue`: Daftar kartu buku/proyek dengan sampul buku, tombol bintang favorit, serta penanganan 4 ui.
   - `src/components/FormKontak.vue`: Formulir tambah entri buku baru dengan validasi data masukan.
   - `src/App.vue`: Komponen induk perakit yang menghubungkan keempat komponen dengan state reaktif dan persistensi `localStorage`.
-- **Penggunaan AI:** AI membantu membaca instruksi Worksheet Pertemuan 12, merakit arsitektur 4 komponen Vue (`KepalaProfil`, `TombolFilter`, `DaftarProyek`, `FormKontak`), serta memvalidasi build produksi Vite
+- **Penggunaan AI:** AI membantu membaca instruksi Worksheet Pertemuan 12,serta memvalidasi build produksi Vite
